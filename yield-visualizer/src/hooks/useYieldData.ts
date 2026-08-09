@@ -12,8 +12,9 @@ export const useYieldData = () => {
   const wsRef = useRef<WebSocket | null>(null)
 
   useEffect(() => {
-    // Assuming backend is running locally on port 8000
-    const ws = new WebSocket('ws://localhost:8000/ws')
+    // Use environment variable if available, otherwise default to production Render URL
+    const wsUrl = import.meta.env.VITE_WS_URL || 'wss://yield-visualizer.onrender.com/ws'
+    const ws = new WebSocket(wsUrl)
     wsRef.current = ws
 
     ws.onmessage = (event) => {
