@@ -1,5 +1,6 @@
 packages:
   - "finui/packages/*"
+  - "finui/apps/*"
   - "yield-visualizer"
 allowBuilds:
   esbuild: set this to true or false
