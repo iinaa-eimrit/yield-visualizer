@@ -1,0 +1,3 @@
+minimumReleaseAgeExclude:
+  - '@amrit_16/core@1.0.0'
+  - '@amrit_16/design-tokens@1.0.0'
