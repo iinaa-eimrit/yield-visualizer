@@ -43,7 +43,7 @@ To run this project locally, you will need to start both the Python backend and 
 
 Navigate to the backend directory, set up your virtual environment, and run the FastAPI server:
 
-\\\ash
+```bash
 cd backend
 python -m venv venv
 
@@ -54,18 +54,18 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 python main.py
-\\\
+```
 *The WebSocket server will now be listening on ws://localhost:8000/ws.*
 
 ### 2. Start the Frontend Dashboard
 
 In a new terminal window, navigate to the frontend directory, install dependencies, and spin up the Vite development server:
 
-\\\ash
+```bash
 cd yield-visualizer
 pnpm install
 pnpm dev
-\\\
+```
 *The dashboard is now available at http://localhost:5173.*
 
 ---
