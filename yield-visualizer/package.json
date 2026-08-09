@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@amrit_16/core": "^1.0.0",
+    "@amrit_16/core": "link:../finui/packages/core",
     "lightweight-charts": "^5.2.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
