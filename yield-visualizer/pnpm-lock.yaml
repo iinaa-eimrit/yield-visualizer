@@ -22,7 +22,7 @@ importers:
         version: 19.2.8(react@19.2.8)
     devDependencies:
       '@amrit_16/design-tokens':
-        specifier: link:..\finui\packages\design-tokens
+        specifier: link:../finui/packages/design-tokens
         version: link:../finui/packages/design-tokens
       '@types/node':
         specifier: ^24.13.3
