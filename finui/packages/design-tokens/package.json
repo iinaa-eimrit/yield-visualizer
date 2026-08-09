@@ -1,0 +1,10 @@
+{
+  "name": "@amrit_16/design-tokens",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "src/preset.ts",
+  "types": "src/preset.ts",
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

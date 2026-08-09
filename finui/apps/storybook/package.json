@@ -1,0 +1,25 @@
+{
+  "name": "@amrit_16/storybook",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@amrit_16/core": "workspace:*",
+    "@amrit_16/icons": "workspace:*"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^8.0.0",
+    "@storybook/addon-essentials": "^8.0.0",
+    "@storybook/addon-links": "^8.0.0",
+    "@storybook/blocks": "^8.0.0",
+    "@storybook/react": "^8.0.0",
+    "@storybook/react-vite": "^8.0.0",
+    "storybook": "^8.0.0",
+    "vite": "^5.1.0"
+  }
+}
